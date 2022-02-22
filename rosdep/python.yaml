@@ -6063,10 +6063,7 @@ python3-catkin-pkg:
   ubuntu: [python3-catkin-pkg]
 python3-catkin-pkg-modules:
   alpine: [py3-catkin-pkg]
-  debian: 
-    bullseye:
-      pip:
-        package: [catkin-pkg]
+  debian: [python3-catkin_pkg]
   fedora: [python3-catkin_pkg]
   gentoo: [dev-python/catkin_pkg]
   nixos: [python3Packages.catkin-pkg]
@@ -7930,7 +7927,7 @@ python3-rosdep-modules:
   ubuntu: [python3-rosdep-modules]
 python3-rosdistro-modules:
   alpine: [py3-rosdistro]
-  debian: [python3-rosdistro-modules]
+  debian: [python3-rosdistro]
   fedora: [python3-rosdistro]
   gentoo: [dev-python/rosdistro]
   nixos: [python3Packages.rosdistro]
