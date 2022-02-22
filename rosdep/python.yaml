@@ -986,7 +986,7 @@ python-catkin-pkg-modules:
     pip:
       packages: [catkin-pkg]
   arch: [python2-catkin_pkg]
-  debian: [python-catkin-pkg-modules]
+  debian: [python-catkin-pkg]
   fedora: [python-catkin_pkg]
   freebsd:
     pip:
