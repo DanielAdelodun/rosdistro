@@ -6724,7 +6724,7 @@ python3-ifcfg:
   debian:
     bullseye:
       pip:
-        [ifcfg]
+        package: [ifcfg]
     buster: [python3-ifcfg]
     stretch: [python3-ifcfg]
   fedora: [python3-ifcfg]
