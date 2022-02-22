@@ -6064,8 +6064,9 @@ python3-catkin-pkg:
 python3-catkin-pkg-modules:
   alpine: [py3-catkin-pkg]
   debian: 
-    pip:
-      [catkin-pkg]
+    bullseye:
+      pip:
+        package: [catkin-pkg]
   fedora: [python3-catkin_pkg]
   gentoo: [dev-python/catkin_pkg]
   nixos: [python3Packages.catkin-pkg]
